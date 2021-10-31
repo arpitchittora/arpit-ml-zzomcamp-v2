@@ -1,0 +1,10 @@
+name: mlmidtermimdbrating
+channels:
+  - conda
+dependencies:
+  - python=3.8
+  - numpy
+  - flask
+  - scikit-learn
+  - gunicorn=20.1.0
+  - xgboost
